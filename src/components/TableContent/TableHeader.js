@@ -34,7 +34,7 @@ const TableHeader =(props) => {
         {props.columns.map((column)=>
         <Table.HeaderCell key={column} onClick={()=>handleSort(column)}>
           
-          {column}   {props.sortedkey===column ? <span>{props.order}</span> : <span></span>   }
+          {column}   {props.sortedkey===column ? <span className={props.order}>{props.order}</span> : <span></span>   }
         </Table.HeaderCell>
         )}
         
