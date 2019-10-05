@@ -1,0 +1,39 @@
+{
+    
+    "dataTable":{
+        "columns":[
+                "id",
+                "make",
+                "model",
+                "year",
+                "package",
+                "fuelType",
+                "transmission"
+                ]
+            , 
+        "data":[
+            {
+                "id": 1,
+                "make": "Subaru",
+                "model": "Justy",
+                "year": 1990,
+                "package": "XSE",
+                "fuelType": "Gas",
+                "transmission": "Manual"
+                
+              },
+              
+              {
+                "id": 3,
+                "make": "Mazda",
+                "model": "B-Series",
+                "year": 1987,
+                "package": "SE",
+                "fuelType": "Diesel",
+                "transmission": "Manual"
+               
+              }
+
+        ]
+    } 
+}
